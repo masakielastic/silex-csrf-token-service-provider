@@ -4,6 +4,7 @@ CsrfTokenServiceProvider for Silex
 Installation
 ------------
 
+Add the following code to `composer.json`.
 
 ```
 {
