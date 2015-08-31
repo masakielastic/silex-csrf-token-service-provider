@@ -12,7 +12,7 @@ Add the following code to `composer.json`.
     {
         "type": "package",
         "package": {
-            "name": "masakielastic/silex-csrf-token-service-manager",
+            "name": "masakielastic/silex-csrf-token-service-provider",
             "version": "0.1.0",
             "type": "package",
             "source": {
@@ -29,7 +29,7 @@ Add the following code to `composer.json`.
     "require": {
         "silex/silex": "~1.3",
         "symfony/security-csrf": "~2.7",
-        "masakielastic/silex-csrf-token-service-manager": "*"
+        "masakielastic/silex-csrf-token-service-provider": "*"
     }
 }
 ```
